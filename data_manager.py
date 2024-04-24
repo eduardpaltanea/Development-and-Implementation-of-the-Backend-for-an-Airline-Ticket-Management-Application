@@ -2,7 +2,7 @@ import requests
 import os
 
 SHEETY_PRICES_ENDPOINT = os.environ["SHEETY_PRICES_ENDPOINT"]
-SHEETY_USERS_ENDPOINT = os.environ["SHEETY_USER_ENDPOINT"]
+SHEETY_USERS_ENDPOINT = os.environ["SHEETY_USERS_ENDPOINT"]
 
 class DataManager:
 
