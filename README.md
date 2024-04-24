@@ -1,1 +1,6 @@
 # Flight-Deals-Project
+  In this small project, I've attempted to handle the backend part of an application that sends messages to phones and emails with flight offers when used. In short, the cities I wish to visit are stored in a Spreadsheet, along with the maximum amount of money I'd like to spend on a ticket.
+  Then, with the help of the Tequila/Kiwi API, I extract the cheapest flight I can find starting from tomorrow up to 6 months ahead. I've set the vacation in that city to be between 7-28 days, so the flights will appear within these margins. 
+  Also, the flights will be direct; 
+  I tried to somehow obtain flights with layovers, but I noticed that it's quite inconsistent in the program because for some cities, it offers layovers, while for others where layover flights exist, it doesn't. I tend to believe that such a problem is primarily from the airlines and not necessarily from my code. In the end, if the price of a flight is lower than the maximum amount of money I'm willing to spend, I'll receive a message on my phone and email. 
+  Also, the project can be improved in terms of user input because I currently enter emails from the keyboard into the spreadsheet, and people who access this program, and my program only deals with extracting those users.
